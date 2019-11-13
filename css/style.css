@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto',arial,sans-serif;
+}
+
+.container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    border: 1px solid #a9a9a9;
+    width: 60%;
+    height: 90vh;
+    border-radius: 5px;
+}
+.header {
+    font-size: 18px;
+    color: #545454;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.search input {
+    color: rgba(0, 0, 0, 0.9);
+    height: 38px;
+    padding: 0 8px;
+    font-size: 16px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 1px solid #a9a9a9;
+    width: 90%;
+}
+.search i {
+    width: 39px;
+    color: #545454;
+    height: 29px;
+    padding: 0 8px;
+    padding-top: 9px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: 1px solid #a9a9a9;
+    border-left: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.main {
+    padding-top: 20px;
+}
+.word-spelling {
+    display: flex;
+    flex-direction: row;
+
+}
+.word-spelling span {
+    height: 22px;
+    width: 22px;
+    margin-right: 12px;
+}
+.fa_custom {
+    font-size: 22px;
+    color: #1b72e8;
+    padding: 7px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.word-spelling p {
+    font-size: 1.7em;
+    padding-top: 5px;
+    margin-left: 14px;
+    font-weight: normal;
+}
+
+#spell {
+    color: #70757a;
+    margin-left: 50px;
+}
+#noun {
+    padding: 30px 0;
+}
+#noun li{
+    margin-left: 50px;
+    padding: 20px 0;
+}
