@@ -13,7 +13,7 @@ body {
     padding: 0 16px;
     border: 1px solid #a9a9a9;
     width: 60%;
-    height: 90vh;
+    
     border-radius: 5px;
 }
 .header {
@@ -86,6 +86,14 @@ body {
     padding: 30px 0;
 }
 #noun li{
+    margin-left: 50px;
+    padding: 20px 0;
+}
+
+#verb {
+    padding: 30px 0;
+}
+#verb li{
     margin-left: 50px;
     padding: 20px 0;
 }
